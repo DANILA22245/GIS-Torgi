@@ -10,7 +10,7 @@ service = Service(r"C:\Users\Олег\Desktop\torgi\msedgedriver.exe")
 driver = webdriver.Edge(service=service)
 driver.maximize_window()
 driver.get(
-    "https://prod:SFJpnasgeE8fwxr7D4VAxV6uPiMXZ2Sn8kDgwg54EcKUsN4jSuPHbWxU2hjQmL99@demo.torgi.gov.ru/new/public"
+    "https://логин:пароль:ссылка"    
 )
 driver.implicitly_wait(100)
 # базовая авторизация на стенде

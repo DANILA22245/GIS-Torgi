@@ -6,18 +6,18 @@ from selenium.webdriver.common.by import By
 service = Service(r"C:\Users\Олег\Desktop\torgi_test\msedgedriver.exe")
 driver = webdriver.Edge(service=service)
 driver.maximize_window()
-driver.get('https://prod:SFJpnasgeE8fwxr7D4VAxV6uPiMXZ2Sn8kDgwg54EcKUsN4jSuPHbWxU2hjQmL99@demo.torgi.gov.ru/new/public')
+driver.get('https://не палимся')
 driver.implicitly_wait(100)
 #базовая авторизация на стенде
 
-#аторизация под Егоровым Петром
+#авторизация под Антипкин Егор Николаевич
 enter = driver.find_element(By.XPATH, "/html/body/app-root/app-layout/main/app-work-area/div/div/div/app-public-shell/div/div/app-public-main/div[1]/app-main-header/div/div/div/div[3]/app-login/app-button/button/span[2]")
 enter.click()
 login = driver.find_element(By.XPATH, "//*[@id='login']")
-login.send_keys("530-714-117 43")
+login.send_keys("000-003-336 00")
 password = driver.find_element(By.XPATH, "//*[@id='password']")
-password.send_keys("Test!12345")
+password.send_keys("og2k6RD::")
 authorise = driver.find_element(By.XPATH, "/html/body/esia-root/div/esia-login/div/div[1]/form/div[3]/button")
 authorise.click()
-#аторизация под Егоровым Петром
+#авторизация под Антипкин Егор Николаевич
 
