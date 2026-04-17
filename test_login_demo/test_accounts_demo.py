@@ -23,7 +23,7 @@ def driver():
     driver = webdriver.Edge(service=service)
     driver.maximize_window()
     driver.implicitly_wait(10)
-    driver.get(',хттпс//базовая авторизация')
+    driver.get('хттпс//базовая авторизация')
     yield driver
     driver.quit()
 
