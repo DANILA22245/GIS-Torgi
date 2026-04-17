@@ -3,7 +3,7 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
 
 #базовая авторизация на стенде
-service = Service(r"C:\Users\Олег\Desktop\torgi_test\msedgedriver.exe")
+service = Service(r"C:\Users\Олег\Desktop\torgi\msedgedriver.exe")
 driver = webdriver.Edge(service=service)
 driver.maximize_window()
 driver.get('https://не палимся')
