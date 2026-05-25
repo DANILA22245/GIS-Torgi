@@ -1,0 +1,181 @@
+
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Confirmation",
+	"description": "Схема данных подтверждения обработки. Версия 5.0 от 19.12.2025",
+	"type": "object",
+	"properties": {
+		"confirmation": {
+			"$ref": "#/definitions/Confirmation"
+		}
+	},
+	"required": [
+		"confirmation"
+	],
+	"additionalProperties": false,
+	"definitions": {
+		"Confirmation": {
+			"title": "Confirmation",
+			"description": "Подтверждение обработки пакета",
+			"type": "object",
+			"properties": {
+				"schemeVersion": {
+					"$ref": "base.json#/definitions/SchemeVersion"
+				},
+				"refId": {
+					"description": "Идентификатор обработанного пакета данных",
+					"type": "string",
+					"minLength": 36,
+					"maxLength": 36
+				},
+				"loadId": {
+					"description": "Идентификатор загруженных данных",
+					"type": "string"
+				},
+				"result": {
+					"description": "Результат обработки данных\r\nSUCCESS - обработано успешно;\r\nFAILURE - ошибки при обработке;\r\nPROCESSING - обрабатывается.",
+					"type": "string",
+					"enum": [
+						"SUCCESS",
+						"FAILURE",
+						"PROCESSING"
+					]
+				},
+				"violations": {
+					"description": "Выявленные в процессе обработки нарушения и ошибки",
+					"type": "array",
+					"minItems": 1,
+					"items": {
+						"$ref": "#/definitions/ViolationType"
+					}
+				},
+				"loadUrl": {
+					"description": "Гиперссылка на форму отображения загруженных данных",
+					"type": "string",
+					"minLength": 1,
+					"maxLength": 500
+				},
+				"addParams": {
+					"description": "Дополнительные параметры",
+					"type": "array",
+					"minItems": 1,
+					"items": {
+						"type": "object",
+						"properties": {
+							"code": {
+								"description": "Код",
+								"type": "string"
+							},
+							"value": {
+								"description": "Значение",
+								"type": "string"
+							}
+						},
+						"required": [
+							"code",
+							"value"
+						]
+					}
+				}
+			},
+			"required": [
+				"schemeVersion",
+				"refId",
+				"result"
+			],
+			"additionalProperties": false,
+			"definitions": {
+				"SchemeVersion": {
+					"description": "Версия схемы, по которой сформирован документ",
+					"type": "string",
+					"enum": [
+						"1.0"
+					]
+				},
+				"violation": {
+					"type": "object",
+					"properties": {
+						"errCode": {
+							"description": "Код ошибки",
+							"type": "string",
+							"minLength": 1,
+							"maxLength": 10
+						},
+						"level": {
+							"description": "Тип:\r\nerror - Ошибка\r\nwarning - Предупреждение",
+							"type": "string",
+							"enum": [
+								"ERROR",
+								"WARNING"
+							]
+						},
+						"name": {
+							"description": "Наименование",
+							"type": "string",
+							"minLength": 1,
+							"maxLength": 200
+						},
+						"description": {
+							"description": "Описание",
+							"type": "string",
+							"minLength": 1,
+							"maxLength": 2000
+						},
+						"fullErrorLog": {
+							"description": "Полный текст ошибки",
+							"type": "string"
+						}
+					},
+					"required": [
+						"errCode",
+						"level",
+						"name"
+					],
+					"additionalProperties": false
+				}
+			}
+		},
+		"ViolationType": {
+			"description": "Тип: Выявленные в процессе обработки нарушения и ошибки",
+			"type": "object",
+			"properties": {
+				"errCode": {
+					"description": "Код ошибки",
+					"type": "string",
+					"minLength": 1,
+					"maxLength": 10
+				},
+				"level": {
+					"description": "Тип:\r\nError - Ошибка\r\nWarning - Предупреждение",
+					"type": "string",
+					"enum": [
+						"ERROR",
+						"WARNING"
+					]
+				},
+				"name": {
+					"description": "Наименование",
+					"type": "string",
+					"minLength": 1,
+					"maxLength": 200
+				},
+				"description": {
+					"description": "Описание",
+					"type": "string",
+					"minLength": 1,
+					"maxLength": 2000
+				},
+				"fullErrorLog": {
+					"description": "Полный текст ошибки",
+					"type": "string"
+				}
+			},
+			"required": [
+				"errCode",
+				"level",
+				"name"
+			],
+			"additionalProperties": false
+		}
+	}
+}

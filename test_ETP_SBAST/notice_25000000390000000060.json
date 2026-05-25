@@ -1,0 +1,298 @@
+{
+	"index": {
+		"id": "66e481dd-0c0a-4183-a20b-3d16e2ae5374",
+		"sender": "TORGI",
+		"receiver": "ETP_SBAST",
+		"requestDate": "2026-04-16T13:52:41.724Z",
+		"objectType": "BP",
+		"objectId": "25000000390000000060"
+	},
+	"data": {
+		"structuredObject": {
+			"notice": {
+				"schemeVersion": "5.1",
+				"id": "66e481dd-0c0a-4183-a20b-3d16e2ae5374",
+				"rootId": "3950ea53-a56b-4c1a-a213-47f26fe044c8",
+				"version": 1,
+				"commonInfo": {
+					"noticeNumber": "25000000390000000060",
+					"biddType": {
+						"code": "224FZ",
+						"name": "Соглашение о государственно-частном партнерстве, соглашение о муниципально-частном партнерстве"
+					},
+					"biddForm": {
+						"code": "EK",
+						"name": "Электронный конкурс"
+					},
+					"publishDate": "2026-04-16T13:52:41.592Z",
+					"procedureName": "ГЧП без даты рассмотрения",
+					"etp": {
+						"code": "ETP_SBAST"
+					},
+					"href": "https://demo.torgi.gov.ru/new/public/notices/view/25000000390000000060"
+				},
+				"bidderOrg": {
+					"orgInfo": {
+						"code": "2500000039",
+						"name": "ОРГАНИЗАЦИЯ -1723247770",
+						"INN": "4183741089",
+						"KPP": "418301001",
+						"OGRN": "7080555857639",
+						"orgType": "LEGAL",
+						"legalAddress": "127434, Город Москва,Улица Дубки",
+						"actualAddress": "г Москва"
+					},
+					"contactInfo": {
+						"contPerson": "Важный Кот Котов",
+						"tel": "73334445566",
+						"email": "aaa@aaa.aaa"
+					}
+				},
+				"rightHolderInfo": {
+					"biddOrgRightHolder": true,
+					"rightHolderOrg": {
+						"code": "2500000039",
+						"name": "ОРГАНИЗАЦИЯ -1723247770",
+						"INN": "4183741089",
+						"KPP": "418301001",
+						"OGRN": "7080555857639",
+						"orgType": "LEGAL",
+						"legalAddress": "127434, Город Москва,Улица Дубки",
+						"actualAddress": "г Москва"
+					}
+				},
+				"lots": [
+					{
+						"lotNumber": 1,
+						"lotStatus": "PUBLISHED",
+						"lotName": "первый лот",
+						"lotDescription": "Первый лот",
+						"priceMin": "0.00",
+						"deposit": "500.00",
+						"accountsRequisites": {
+							"electronicPlatform": true,
+							"recipient": {
+								"name": "АО \"Сбербанк-АСТ\"",
+								"INN": "7707308480",
+								"KPP": "770401001"
+							},
+							"bankName": "ПАО \"СБЕРБАНК РОССИИ\" Г. МОСКВА",
+							"BIK": "044525225",
+							"payAccount": "40702810300020038047",
+							"corAccount": "30101810400000000225",
+							"purposePayment": "Задаток, обеспечение оплаты услуг оператора, сбор за участие (ИНН плательщика). НДС не облагается."
+						},
+						"currency": {
+							"code": "643"
+						},
+						"privatizationReason": "-",
+						"biddingObjectInfo": {
+							"subjectRF": {
+								"code": "5"
+							},
+							"estateAddress": "респ. Дагестан, г.о. город Избербаш, г. Избербаш, ул. Дагестанская",
+							"estateAddressFIAS": {
+								"addressByFIAS": {
+									"id": 78823,
+									"guid": "e8826f4f-a36c-418c-89d9-5287054ba3bc",
+									"name": "ул. Дагестанская",
+									"level": {
+										"code": 8
+									},
+									"municipalHierarchyAddress": "респ. Дагестан, г.о. город Избербаш, г. Избербаш, ул. Дагестанская",
+									"hierarchyObjects": [
+										{
+											"id": 78545,
+											"guid": "0bb7fa19-736d-49cf-ad0e-9774c4dae09b",
+											"name": "респ. Дагестан",
+											"level": {
+												"code": 1
+											}
+										},
+										{
+											"id": 95231732,
+											"guid": "0c419da4-496b-4b0c-9b5e-8e9f32f96755",
+											"name": "г.о. город Избербаш",
+											"level": {
+												"code": 3
+											}
+										},
+										{
+											"id": 78958,
+											"guid": "bf14786f-6c0e-4369-8907-57f9d3fd93ac",
+											"name": "г. Избербаш",
+											"level": {
+												"code": 5
+											}
+										}
+									]
+								}
+							},
+							"category": {
+								"code": "800",
+								"name": "Объекты ГЧП и МЧП"
+							},
+							"isCompound": false,
+							"ownershipForms": {
+								"code": "12",
+								"name": "Федеральная собственность"
+							},
+							"characteristics": [
+								{
+									"code": "agreementObject",
+									"name": "Объект соглашения о государственно-частном партнерстве и муниципально-частном партнерстве",
+									"characteristicValue": {
+										"code": "privateMotorRoads",
+										"name": "Частные автомобильные дороги или их участки, мосты, защитные или искусственные дорожные сооружения, другие объекты, связанные с автомобильными дорогами"
+									}
+								},
+								{
+									"code": "objectDescription",
+									"name": "Описание объекта",
+									"characteristicValue": "Описание объекта"
+								}
+							]
+						},
+						"additionalDetails": [
+							{
+								"code": "DA_limitations_EK(224)",
+								"name": "Обременения, ограничения",
+								"value": "Обременения, ограничения\n"
+							},
+							{
+								"code": "DA_contractType_EK(224)",
+								"name": "Вид договора",
+								"value": {
+									"code": "25",
+									"name": "Соглашение о государственно-частном партнерстве"
+								}
+							},
+							{
+								"code": "DA_depositTimeAndRules_EK(224)",
+								"name": "Срок и порядок внесения задатка",
+								"value": "Срок и порядок внесения задатка\n"
+							},
+							{
+								"code": "DA_bankGuarantee_EK(224)",
+								"name": "Размер безотзывной банковской гарантии",
+								"value": 500
+							},
+							{
+								"code": "DA_bankGuaranteeTimeAndRules_EK(224)",
+								"name": "Условия, порядок предоставления и срок действия безотзывной банковской гарантии",
+								"value": "Условия, порядок предоставления и срок действия безотзывной банковской гарантии\n"
+							}
+						],
+						"imageIds": [
+							{
+								"id": "69e0e7dfd75a9709e50e2b0b",
+								"name": "1.png",
+								"size": 68132,
+								"hash": "1da45f8ed5150c27b115fa3412fcbef0c0aa15a432ce450e2015b21384e24bb6",
+								"attachmentType": {
+									"code": "Other"
+								}
+							}
+						]
+					}
+				],
+				"biddConditions": {
+					"biddStartTime": "2026-04-16T21:00:00.000Z",
+					"biddEndTime": "2026-04-20T21:00:00.000Z",
+					"biddRules": "Порядок подачи заявок и конкурсных предложений\n"
+				},
+				"timeZone": {
+					"code": "TM133",
+					"name": "МСК"
+				},
+				"additionalDetails": [
+					{
+						"code": "DA_procedureJointTender_EK(224)",
+						"name": "Совместный конкурс",
+						"value": false
+					},
+					{
+						"code": "DA_OfferRules_EK(224)",
+						"name": "Порядок и место представления конкурсных предложений",
+						"value": "Порядок и место представления конкурсных предложений\n"
+					},
+					{
+						"code": "DA_OfferStartTime_EK(224)",
+						"name": "Дата и время начала представления конкурсных предложений",
+						"value": "2026-04-26T21:00:00Z"
+					},
+					{
+						"code": "DA_OfferEndTime_EK(224)",
+						"name": "Дата и время окончания представления конкурсных предложений",
+						"value": "2026-04-28T21:00:00Z"
+					},
+					{
+						"code": "DA_DateOfferConsideration_EK(224)",
+						"name": "Дата и время начала рассмотрения конкурсных предложений и определения участников конкурса в электронной форме, представивших конкурсные предложения",
+						"value": "2026-04-29T21:00:00Z"
+					},
+					{
+						"code": "DA_TermsContract_EK(224)",
+						"name": "Условия договора, заключаемого по результатам торгов",
+						"value": "Условия договора, заключаемого по результатам торгов\n"
+					},
+					{
+						"code": "DA_refusalTerm_EK_1(224)",
+						"name": "Срок отказа организатора от проведения процедуры торгов",
+						"value": "Срок отказа организатора от проведения процедуры торгов\n"
+					}
+				],
+				"signedData": {
+					"id": "69e0e99dd75a9709e50e2b4d",
+					"size": 6882,
+					"hash": "8c3dad3fc243e734db658c6089bd3823dcc1d110cf345ad90de9823fcca29f90",
+					"fileType": "JSON"
+				},
+				"docs": [
+					{
+						"id": "69e0e91ad75a9709e50e2b47",
+						"name": "100.docx",
+						"size": 11452,
+						"hash": "018c83beeb8c2f3c7cdc25e35e2a838282d59b9f29465a7bcfd1e3b74a9a69ad",
+						"attachmentType": {
+							"code": "Draft_Agreement",
+							"name": "Проект соглашения"
+						}
+					},
+					{
+						"id": "69e0e92cd75a9709e50e2b4a",
+						"name": "4.docx",
+						"size": 11466,
+						"hash": "6251c265058ce7bd0797e70b024555f8515888273bb80320618e6ee1339abc9a",
+						"attachmentType": {
+							"code": "Tender_Document",
+							"name": "Конкурсная документация"
+						}
+					}
+				]
+			}
+		},
+		"attachments": [
+			{
+				"contentId": "69e0e91ad75a9709e50e2b47",
+				"URL": "https://demo.torgi.gov.ru/new/file-store/v1/69e0e91ad75a9709e50e2b47",
+				"detachedSignature": "MIIN4wYJKoZIhvcNAQcCoIIN1DCCDdACAQExDjAMBggqhQMHAQECAgUAMAsGCSqGSIb3DQEHAaCC\r\nCh4wggT3MIIEpKADAgECAhN8ADAlUZ+VgsZ9QxiIABIAMCVRMAoGCCqFAwcBAQMCMIIBCjEYMBYG\r\nBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAwMTIzNDU2Nzg5MDEvMC0GA1UE\r\nCQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4gMTgxCzAJBgNVBAYTAlJVMRkw\r\nFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+0YHQutCy0LAxJTAjBgNVBAoM\r\nHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMMMtCi0LXRgdGC0L7QstGL0Lkg\r\n0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2MDMxOTEwMzEzM1oXDTI2MDUw\r\nMzA2MDYyMFowNTEzMDEGA1UEAwwq0JrQuNC8INCd0LDQvCDQlNC20YPQvSDQmNCd0J09MTIzNDU2\r\nNzg5MTExMGYwHwYIKoUDBwEBAQEwEwYHKoUDAgIkAAYIKoUDBwEBAgIDQwAEQOKWw/GDMS/CG0gV\r\nj3XDdY7zhaBOiL4JK8Do3GZ50ufwaoDDJVw2+NpJ5Gx/YNFTsSop93LpPrlNXkN84fd19MajggKt\r\nMIICqTAOBgNVHQ8BAf8EBAMCBPAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwHQYDVR0OBBYEFHYKI/Iw\r\nQZ1/MSMd33lZEz7x4aMWMB8GA1UdIwQYMBaAFGFdtz4oMK7A2WoIJC6gswZoz3ZzMIIBEgYDVR0f\r\nBIIBCTCCAQUwggEBoIH+oIH7hoG2aHR0cDovL3Rlc3Rnb3N0MjAxMi5jcnlwdG9wcm8ucnUvQ2Vy\r\ndEVucm9sbC8hMDQyMiEwNDM1ITA0NDEhMDQ0MiEwNDNlITA0MzIhMDQ0YiEwNDM5JTIwITA0MjMh\r\nMDQyNiUyMCEwNDFlITA0MWUhMDQxZSUyMCEwMDIyITA0MWEhMDQyMCEwNDE4ITA0MWYhMDQyMiEw\r\nNDFlLSEwNDFmITA0MjAhMDQxZSEwMDIyKDE4KS5jcmyGQGh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5\r\ncHRvcHJvLnJ1L0NlcnRFbnJvbGwvdGVzdGdvc3QyMDEyKDE4KS5jcmwwggEqBggrBgEFBQcBAQSC\r\nARwwggEYMD8GCCsGAQUFBzABhjNodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9vY3Nw\r\nMjAxMmcvb2NzcC5zcmYwQQYIKwYBBQUHMAGGNWh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5cHRvcHJv\r\nLnJ1L29jc3AyMDEyZ3N0L29jc3Auc3JmMEwGCCsGAQUFBzAChkBodHRwOi8vdGVzdGdvc3QyMDEy\r\nLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Rnb3N0MjAxMigxOCkuY3J0MEQGCCsGAQUFBzAC\r\nhjhodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Ryb290LnA3\r\nYjAKBggqhQMHAQEDAgNBACuf25sA9EnnNekob++gYM5RnHmUKe+xWtJYlpMPShzy9icZ/3EKdKRM\r\nJA3s/Q4UJe2FUn9ecSJP5uuSZcW+2YMwggUfMIIEzKADAgECAhAyIhFD6GgehUKvp0NGa/y4MAoG\r\nCCqFAwcBAQMCMIIBCjEYMBYGBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAw\r\nMTIzNDU2Nzg5MDEvMC0GA1UECQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4g\r\nMTgxCzAJBgNVBAYTAlJVMRkwFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+\r\n0YHQutCy0LAxJTAjBgNVBAoMHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMM\r\nMtCi0LXRgdGC0L7QstGL0Lkg0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2\r\nMDIwMzA1NTYyMFoXDTI2MDUwMzA2MDYyMFowggEKMRgwFgYFKoUDZAESDTEyMzQ1Njc4OTAxMjMx\r\nGjAYBggqhQMDgQMBARIMMDAxMjM0NTY3ODkwMS8wLQYDVQQJDCbRg9C7LiDQodGD0YnRkdCy0YHQ\r\nutC40Lkg0LLQsNC7INC0LiAxODELMAkGA1UEBhMCUlUxGTAXBgNVBAgMENCzLiDQnNC+0YHQutCy\r\n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\r\n8lhASoFpKRfc9PRG6VNw/dKcXni7uDK0+w=="
+			},
+			{
+				"contentId": "69e0e92cd75a9709e50e2b4a",
+				"URL": "https://demo.torgi.gov.ru/new/file-store/v1/69e0e92cd75a9709e50e2b4a",
+				"detachedSignature": "MIIN4wYJKoZIhvcNAQcCoIIN1DCCDdACAQExDjAMBggqhQMHAQECAgUAMAsGCSqGSIb3DQEHAaCC\r\nCh4wggT3MIIEpKADAgECAhN8ADAlUZ+VgsZ9QxiIABIAMCVRMAoGCCqFAwcBAQMCMIIBCjEYMBYG\r\nBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAwMTIzNDU2Nzg5MDEvMC0GA1UE\r\nCQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4gMTgxCzAJBgNVBAYTAlJVMRkw\r\nFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+0YHQutCy0LAxJTAjBgNVBAoM\r\nHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMMMtCi0LXRgdGC0L7QstGL0Lkg\r\n0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2MDMxOTEwMzEzM1oXDTI2MDUw\r\nMzA2MDYyMFowNTEzMDEGA1UEAwwq0JrQuNC8INCd0LDQvCDQlNC20YPQvSDQmNCd0J09MTIzNDU2\r\nNzg5MTExMGYwHwYIKoUDBwEBAQEwEwYHKoUDAgIkAAYIKoUDBwEBAgIDQwAEQOKWw/GDMS/CG0gV\r\nj3XDdY7zhaBOiL4JK8Do3GZ50ufwaoDDJVw2+NpJ5Gx/YNFTsSop93LpPrlNXkN84fd19MajggKt\r\nMIICqTAOBgNVHQ8BAf8EBAMCBPAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwHQYDVR0OBBYEFHYKI/Iw\r\nQZ1/MSMd33lZEz7x4aMWMB8GA1UdIwQYMBaAFGFdtz4oMK7A2WoIJC6gswZoz3ZzMIIBEgYDVR0f\r\nBIIBCTCCAQUwggEBoIH+oIH7hoG2aHR0cDovL3Rlc3Rnb3N0MjAxMi5jcnlwdG9wcm8ucnUvQ2Vy\r\ndEVucm9sbC8hMDQyMiEwNDM1ITA0NDEhMDQ0MiEwNDNlITA0MzIhMDQ0YiEwNDM5JTIwITA0MjMh\r\nMDQyNiUyMCEwNDFlITA0MWUhMDQxZSUyMCEwMDIyITA0MWEhMDQyMCEwNDE4ITA0MWYhMDQyMiEw\r\nNDFlLSEwNDFmITA0MjAhMDQxZSEwMDIyKDE4KS5jcmyGQGh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5\r\ncHRvcHJvLnJ1L0NlcnRFbnJvbGwvdGVzdGdvc3QyMDEyKDE4KS5jcmwwggEqBggrBgEFBQcBAQSC\r\nARwwggEYMD8GCCsGAQUFBzABhjNodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9vY3Nw\r\nMjAxMmcvb2NzcC5zcmYwQQYIKwYBBQUHMAGGNWh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5cHRvcHJv\r\nLnJ1L29jc3AyMDEyZ3N0L29jc3Auc3JmMEwGCCsGAQUFBzAChkBodHRwOi8vdGVzdGdvc3QyMDEy\r\nLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Rnb3N0MjAxMigxOCkuY3J0MEQGCCsGAQUFBzAC\r\nhjhodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Ryb290LnA3\r\nYjAKBggqhQMHAQEDAgNBACuf25sA9EnnNekob++gYM5RnHmUKe+xWtJYlpMPShzy9icZ/3EKdKRM\r\nJA3s/Q4UJe2FUn9ecSJP5uuSZcW+2YMwggUfMIIEzKADAgECAhAyIhFD6GgehUKvp0NGa/y4MAoG\r\nCCqFAwcBAQMCMIIBCjEYMBYGBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAw\r\nMTIzNDU2Nzg5MDEvMC0GA1UECQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4g\r\nMTgxCzAJBgNVBAYTAlJVMRkwFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+\r\n0YHQutCy0LAxJTAjBgNVBAoMHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMM\r\nMtCi0LXRgdGC0L7QstGL0Lkg0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2\r\nMDIwMzA1NTYyMFoXDTI2MDUwMzA2MDYyMFowggEKMRgwFgYFKoUDZAESDTEyMzQ1Njc4OTAxMjMx\r\nGjAYBggqhQMDgQMBARIMMDAxMjM0NTY3ODkwMS8wLQYDVQQJDCbRg9C7LiDQodGD0YnRkdCy0YHQ\r\nutC40Lkg0LLQsNC7INC0LiAxODELMAkGA1UEBhMCUlUxGTAXBgNVBAgMENCzLiDQnNC+0YHQutCy\r\n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\r\nyGX4/O/OMUGbzCaxeLG7yjexyEbQASySGQ=="
+			},
+			{
+				"contentId": "69e0e7dfd75a9709e50e2b0b",
+				"URL": "https://demo.torgi.gov.ru/new/file-store/v1/69e0e7dfd75a9709e50e2b0b",
+				"detachedSignature": "MIIN4wYJKoZIhvcNAQcCoIIN1DCCDdACAQExDjAMBggqhQMHAQECAgUAMAsGCSqGSIb3DQEHAaCC\r\nCh4wggT3MIIEpKADAgECAhN8ADAlUZ+VgsZ9QxiIABIAMCVRMAoGCCqFAwcBAQMCMIIBCjEYMBYG\r\nBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAwMTIzNDU2Nzg5MDEvMC0GA1UE\r\nCQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4gMTgxCzAJBgNVBAYTAlJVMRkw\r\nFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+0YHQutCy0LAxJTAjBgNVBAoM\r\nHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMMMtCi0LXRgdGC0L7QstGL0Lkg\r\n0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2MDMxOTEwMzEzM1oXDTI2MDUw\r\nMzA2MDYyMFowNTEzMDEGA1UEAwwq0JrQuNC8INCd0LDQvCDQlNC20YPQvSDQmNCd0J09MTIzNDU2\r\nNzg5MTExMGYwHwYIKoUDBwEBAQEwEwYHKoUDAgIkAAYIKoUDBwEBAgIDQwAEQOKWw/GDMS/CG0gV\r\nj3XDdY7zhaBOiL4JK8Do3GZ50ufwaoDDJVw2+NpJ5Gx/YNFTsSop93LpPrlNXkN84fd19MajggKt\r\nMIICqTAOBgNVHQ8BAf8EBAMCBPAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwHQYDVR0OBBYEFHYKI/Iw\r\nQZ1/MSMd33lZEz7x4aMWMB8GA1UdIwQYMBaAFGFdtz4oMK7A2WoIJC6gswZoz3ZzMIIBEgYDVR0f\r\nBIIBCTCCAQUwggEBoIH+oIH7hoG2aHR0cDovL3Rlc3Rnb3N0MjAxMi5jcnlwdG9wcm8ucnUvQ2Vy\r\ndEVucm9sbC8hMDQyMiEwNDM1ITA0NDEhMDQ0MiEwNDNlITA0MzIhMDQ0YiEwNDM5JTIwITA0MjMh\r\nMDQyNiUyMCEwNDFlITA0MWUhMDQxZSUyMCEwMDIyITA0MWEhMDQyMCEwNDE4ITA0MWYhMDQyMiEw\r\nNDFlLSEwNDFmITA0MjAhMDQxZSEwMDIyKDE4KS5jcmyGQGh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5\r\ncHRvcHJvLnJ1L0NlcnRFbnJvbGwvdGVzdGdvc3QyMDEyKDE4KS5jcmwwggEqBggrBgEFBQcBAQSC\r\nARwwggEYMD8GCCsGAQUFBzABhjNodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9vY3Nw\r\nMjAxMmcvb2NzcC5zcmYwQQYIKwYBBQUHMAGGNWh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5cHRvcHJv\r\nLnJ1L29jc3AyMDEyZ3N0L29jc3Auc3JmMEwGCCsGAQUFBzAChkBodHRwOi8vdGVzdGdvc3QyMDEy\r\nLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Rnb3N0MjAxMigxOCkuY3J0MEQGCCsGAQUFBzAC\r\nhjhodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Ryb290LnA3\r\nYjAKBggqhQMHAQEDAgNBACuf25sA9EnnNekob++gYM5RnHmUKe+xWtJYlpMPShzy9icZ/3EKdKRM\r\nJA3s/Q4UJe2FUn9ecSJP5uuSZcW+2YMwggUfMIIEzKADAgECAhAyIhFD6GgehUKvp0NGa/y4MAoG\r\nCCqFAwcBAQMCMIIBCjEYMBYGBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAw\r\nMTIzNDU2Nzg5MDEvMC0GA1UECQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4g\r\nMTgxCzAJBgNVBAYTAlJVMRkwFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+\r\n0YHQutCy0LAxJTAjBgNVBAoMHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMM\r\nMtCi0LXRgdGC0L7QstGL0Lkg0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2\r\nMDIwMzA1NTYyMFoXDTI2MDUwMzA2MDYyMFowggEKMRgwFgYFKoUDZAESDTEyMzQ1Njc4OTAxMjMx\r\nGjAYBggqhQMDgQMBARIMMDAxMjM0NTY3ODkwMS8wLQYDVQQJDCbRg9C7LiDQodGD0YnRkdCy0YHQ\r\nutC40Lkg0LLQsNC7INC0LiAxODELMAkGA1UEBhMCUlUxGTAXBgNVBAgMENCzLiDQnNC+0YHQutCy\r\n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\r\nAkUFQDG5OTjMowReZ27MkeB1isNSH5bpbw=="
+			},
+			{
+				"contentId": "69e0e99dd75a9709e50e2b4d",
+				"URL": "https://demo.torgi.gov.ru/new/file-store/v1/69e0e99dd75a9709e50e2b4d",
+				"detachedSignature": "MIIN4wYJKoZIhvcNAQcCoIIN1DCCDdACAQExDjAMBggqhQMHAQECAgUAMAsGCSqGSIb3DQEHAaCC\r\nCh4wggT3MIIEpKADAgECAhN8ADAlUZ+VgsZ9QxiIABIAMCVRMAoGCCqFAwcBAQMCMIIBCjEYMBYG\r\nBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAwMTIzNDU2Nzg5MDEvMC0GA1UE\r\nCQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4gMTgxCzAJBgNVBAYTAlJVMRkw\r\nFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+0YHQutCy0LAxJTAjBgNVBAoM\r\nHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMMMtCi0LXRgdGC0L7QstGL0Lkg\r\n0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2MDMxOTEwMzEzM1oXDTI2MDUw\r\nMzA2MDYyMFowNTEzMDEGA1UEAwwq0JrQuNC8INCd0LDQvCDQlNC20YPQvSDQmNCd0J09MTIzNDU2\r\nNzg5MTExMGYwHwYIKoUDBwEBAQEwEwYHKoUDAgIkAAYIKoUDBwEBAgIDQwAEQOKWw/GDMS/CG0gV\r\nj3XDdY7zhaBOiL4JK8Do3GZ50ufwaoDDJVw2+NpJ5Gx/YNFTsSop93LpPrlNXkN84fd19MajggKt\r\nMIICqTAOBgNVHQ8BAf8EBAMCBPAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwHQYDVR0OBBYEFHYKI/Iw\r\nQZ1/MSMd33lZEz7x4aMWMB8GA1UdIwQYMBaAFGFdtz4oMK7A2WoIJC6gswZoz3ZzMIIBEgYDVR0f\r\nBIIBCTCCAQUwggEBoIH+oIH7hoG2aHR0cDovL3Rlc3Rnb3N0MjAxMi5jcnlwdG9wcm8ucnUvQ2Vy\r\ndEVucm9sbC8hMDQyMiEwNDM1ITA0NDEhMDQ0MiEwNDNlITA0MzIhMDQ0YiEwNDM5JTIwITA0MjMh\r\nMDQyNiUyMCEwNDFlITA0MWUhMDQxZSUyMCEwMDIyITA0MWEhMDQyMCEwNDE4ITA0MWYhMDQyMiEw\r\nNDFlLSEwNDFmITA0MjAhMDQxZSEwMDIyKDE4KS5jcmyGQGh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5\r\ncHRvcHJvLnJ1L0NlcnRFbnJvbGwvdGVzdGdvc3QyMDEyKDE4KS5jcmwwggEqBggrBgEFBQcBAQSC\r\nARwwggEYMD8GCCsGAQUFBzABhjNodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9vY3Nw\r\nMjAxMmcvb2NzcC5zcmYwQQYIKwYBBQUHMAGGNWh0dHA6Ly90ZXN0Z29zdDIwMTIuY3J5cHRvcHJv\r\nLnJ1L29jc3AyMDEyZ3N0L29jc3Auc3JmMEwGCCsGAQUFBzAChkBodHRwOi8vdGVzdGdvc3QyMDEy\r\nLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Rnb3N0MjAxMigxOCkuY3J0MEQGCCsGAQUFBzAC\r\nhjhodHRwOi8vdGVzdGdvc3QyMDEyLmNyeXB0b3Byby5ydS9DZXJ0RW5yb2xsL3Rlc3Ryb290LnA3\r\nYjAKBggqhQMHAQEDAgNBACuf25sA9EnnNekob++gYM5RnHmUKe+xWtJYlpMPShzy9icZ/3EKdKRM\r\nJA3s/Q4UJe2FUn9ecSJP5uuSZcW+2YMwggUfMIIEzKADAgECAhAyIhFD6GgehUKvp0NGa/y4MAoG\r\nCCqFAwcBAQMCMIIBCjEYMBYGBSqFA2QBEg0xMjM0NTY3ODkwMTIzMRowGAYIKoUDA4EDAQESDDAw\r\nMTIzNDU2Nzg5MDEvMC0GA1UECQwm0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCy0LDQuyDQtC4g\r\nMTgxCzAJBgNVBAYTAlJVMRkwFwYDVQQIDBDQsy4g0JzQvtGB0LrQstCwMRUwEwYDVQQHDAzQnNC+\r\n0YHQutCy0LAxJTAjBgNVBAoMHNCe0J7QniAi0JrQoNCY0J/QotCeLdCf0KDQniIxOzA5BgNVBAMM\r\nMtCi0LXRgdGC0L7QstGL0Lkg0KPQpiDQntCe0J4gItCa0KDQmNCf0KLQni3Qn9Cg0J4iMB4XDTI2\r\nMDIwMzA1NTYyMFoXDTI2MDUwMzA2MDYyMFowggEKMRgwFgYFKoUDZAESDTEyMzQ1Njc4OTAxMjMx\r\nGjAYBggqhQMDgQMBARIMMDAxMjM0NTY3ODkwMS8wLQYDVQQJDCbRg9C7LiDQodGD0YnRkdCy0YHQ\r\nutC40Lkg0LLQsNC7INC0LiAxODELMAkGA1UEBhMCUlUxGTAXBgNVBAgMENCzLiDQnNC+0YHQutCy\r\n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\r\nPjf/S1VwvBq0z6WW5m8WTRMUfkI2aDzXow=="
+			}
+		]
+	}
+}
